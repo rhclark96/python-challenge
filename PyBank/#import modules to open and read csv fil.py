@@ -4,7 +4,7 @@ import csv
 import statistics
 
 #set path to csv
-bank_path = os.path.join ("C:/Users/Rowan/Desktop/Data_Analysis_Projects/M3_Finances_Voting_Analysis_PYTHON/python-challenge/PyBank/Resources/budget_data.csv")
+bank_path = os.path.join ("python-challenge","PyBank", "Resources", "budget_data.csv")
 
   #set initial value for a variable to count months 
 month_count = 0
