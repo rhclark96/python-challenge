@@ -97,3 +97,19 @@ print(f"Average Change: ${avg_change}")
 print(f"Greatest Increase in Profits: {great_max[0]} (${great_max[1]})")
 
 print(f"Greatest Decrease in Profits: {great_min[0]} (${great_min[1]})")
+
+#print to txt file
+with open("PyBank_Analysis.txt", "a") as f:
+    print("Financial Analysis", file=f)
+
+    print("----------------------------", file=f)
+
+    print(f"Total Months: {month_count}",file=f)
+
+    print(f"Total: ${net_total}",file=f)
+
+    print(f"Average Change: ${avg_change}",file=f)
+
+    print(f"Greatest Increase in Profits: {great_max[0]} (${great_max[1]})",file=f)
+
+    print(f"Greatest Decrease in Profits: {great_min[0]} (${great_min[1]})",file=f)
